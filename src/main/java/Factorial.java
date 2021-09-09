@@ -2,9 +2,13 @@ public class Factorial {
 
     public static int calculate(int number){
 
+        int i = 1;
         int result = 1;
-        for(int i = 1; i <= number; i++){
+
+        while(i <= number){
             result *= i;
+
+            i++;
         }
 
         return result;
